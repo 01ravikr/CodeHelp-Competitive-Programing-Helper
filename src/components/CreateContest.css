@@ -1,0 +1,16 @@
+.problem-list li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .problem-list li.checked {
+    background-color: #24b619;
+  }
+  
+  .problem-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
